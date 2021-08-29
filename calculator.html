@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="calculator.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <div class="result" id="history-value"></div>
+            <div class="input" id="Output-value"></div>
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button type="button" id="clear" class="btn btn-light operator" style="background-color: rgb(231, 227, 227);">C</button>
+                <button type="button" id="backspace" class="btn btn-light operator" style="background-color: rgb(231, 227, 227);">CE</button>
+                <button type="button" id="%" class="btn btn-light operator" style="background-color: rgb(231, 227, 227);">&#37;</button>
+                <button type="button" id="/;" class="btn btn-light operator" style="background-color: rgb(16, 230, 230);">&#247;</button>
+            </div>
+
+            <div class="row">
+                <button type="button" id="7" class="btn btn-light number">7</button>
+                <button type="button" id="8" class="btn btn-light number">8</button>
+                <button type="button" id="9" class="btn btn-light number">9</button>
+                <button type="button" id="*" class="btn btn-light operator" style="background-color: rgb(252, 166, 8);">&#215;</button>
+            </div>
+
+            <div class="row">
+                <button type="button" id="4" class="btn btn-light number">4</button>
+                <button type="button" id="5" class="btn btn-light number">5</button>
+                <button type="button" id="6" class="btn btn-light number">6</button>
+                <button type="button" class="btn btn-light operator" id="-"
+                    style="background-color: rgb(241, 120, 38);">&#8722;</button>
+            </div>
+
+            <div class="row">
+                <button type="button" id="1" class="btn btn-light number">1</button>
+                <button type="button" id="2" class="btn btn-light number">2</button>
+                <button type="button" id="3" class="btn btn-light number">3</button>
+                <button type="button" id="+" class="btn btn-light operator" style="background-color: rgb(64, 135, 216);">&#43;</button>
+            </div>
+
+            <div class="row">
+                <button type="button" id="00" class="btn btn-light number">00</button>
+                <button type="button" id="0" class="btn btn-light number">0</button>
+                <button type="button" class="btn btn-light" style="visibility: hidden;"></button>
+                <button type="button" id="=" class="btn btn-light operator" style="background-color: rgb(204, 44, 204);">&#61;</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+<script src="calculator.js"></script>
+
+</html>
